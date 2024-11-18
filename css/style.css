@@ -15,8 +15,10 @@
 html,body{
     height:100%;
     overlflow-y: hidden;
+    overflow-x: hidden;
 }
 header{
+    height: 200px;
     padding:20px 0;
 }
 .logo{
@@ -31,4 +33,19 @@ header{
     text-decoration: none;
     font-weight: bold; 
     margin-right: 15px;
+}
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras{
+    position: absolute;
+    bottom:-450px;
+    right:-500px;
+    width:1200px;
+    height:1200px;
+    border-radius:50%;
+    background-color: green;
+    
+ 
     
